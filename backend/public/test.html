@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Vocacional - Descubre tu orientación</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="header">
+        <img src="img/logowhite.png" alt="Logo" class="logo">
+        <h1>DESCUBRE TU ORIENTACIÓN VOCACIONAL</h1>
+    </div>
+    
+    <div class="container">
+        <!-- Sección de intereses -->
+        <form id="testForm">
+            <div class="section" id="section-intereses">
+                <h2>Sección 1: Intereses</h2>
+
+                <!-- Preguntas intereses -->
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría atender y cuidar enfermos?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest1" name="interest1" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría intervenir activamente en las discusiones de clase?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest2" name="interest2" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría escribir cuentos, crónicas o artículos?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest3" name="interest3" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría dibujar y pintar?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest4" name="interest4" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría cantar en un coro estudiantil?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest5" name="interest5" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría llevar en forma correcta y ordenada los apuntes de clase?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest6" name="interest6" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría conocer y estudiar la estructura de las plantas y de los animales?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest7" name="interest7" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría resolver cuestionarios de matemáticas?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest8" name="interest8" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría armar y desarmar objetos mecánicos?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest9" name="interest9" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría salir de excursión?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest10" name="interest10" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría proteger a los muchachos menores del grupo?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest11" name="interest11" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría ser jefe de un grupo?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest12" name="interest12" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría leer obras literarias?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest13" name="interest13" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría moldear el barro, plastilina o cualquier otro material?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest14" name="interest14" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría escuchar música clásica?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest15" name="interest15" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría ordenar y clasificar los libros de una biblioteca?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest16" name="interest16" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría hacer experimentos en un laboratorio?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest17" name="interest17" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría resolver problemas de aritmética?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest18" name="interest18" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría manejar herramientas y maquinaria?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest19" name="interest19" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría pertenecer a un grupo de exploradores?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest20" name="interest20" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría ser miembro de una sociedad de ayuda y asistencia?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest21" name="interest21" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría dirigir la campaña política para un candidato estudiantil?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest22" name="interest22" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría hacer versos para una publicación?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest23" name="interest23" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría encargarte del decorado del lugar para un festival?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest24" name="interest24" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría aprender a tocar un instrumento musical?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest25" name="interest25" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría aprender a escribir a máquina y en taquigrafía?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest26" name="interest26" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría investigar el origen de las costumbres de los pueblos?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest27" name="interest27" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría llevar las cuentas de una institución?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest28" name="interest28" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría construir objeto o muebles?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest29" name="interest29" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría Trabajar al aire libre, fuera de la ciudad?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest30" name="interest30" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría enseñar a leer a los analfabetos?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest31" name="interest31" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría hacer propaganda para la difusión de una idea?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest32" name="interest32" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría representar un papel en una obra de teatro?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest33" name="interest33" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría idear y diseñar el escudo de un club o sociedad?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest34" name="interest34" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría ser miembro de una asociación musical?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest35" name="interest35" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría ayudar a calificar pruebas?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest36" name="interest36" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría estudiar y entender las causas de los movimientos sociales?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest37" name="interest37" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría explicar a otros cómo resolver problemas de matemáticas?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest38" name="interest38" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría reparar las instalaciones eléctricas, de gas o de plomería en tu casa?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest39" name="interest39" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría sembrar y plantar en una granja durante las vacaciones?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest40" name="interest40" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría ayudar a tus compañeros en sus dificultades y preocupaciones?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest41" name="interest41" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría leer biografías de políticos eminentes?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest42" name="interest42" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría participar en un concurso de oratoria?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest43" name="interest43" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría diseñar el vestuario para una función teatral?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest44" name="interest44" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría leer biografías de músicos eminentes?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest45" name="interest45" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría encargarte del archivo y los documentos de una sociedad?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest46" name="interest46" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría leer revistas y libros científicos?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest47" name="interest47" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría participar en concursos de matemáticas?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest48" name="interest48" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría proyectar y dirigir alguna construcción?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest49" name="interest49" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría atender animales en un rancho durante las vacaciones?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest50" name="interest50" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría trabajar como funcionario al servicio de las clases humildes?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest51" name="interest51" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría trabajar como experto en relaciones sociales de una gran empresa?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest52" name="interest52" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría trabajar como escritor en un periódico o empresa editorial?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest53" name="interest53" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría trabajar como dibujante profesional en una empresa?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest54" name="interest54" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría trabajar como concertista en una sinfónica?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest55" name="interest55" required>
+                        <option value="5">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría trabajar como técnico organizador de oficinas?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest56" name="interest56" required>
+                        <option value="5">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría trabajar como investigador en un laboratorio?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest57" name="interest57" required>
+                        <option value="5">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría trabajar como experto calculista en una institución?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest58" name="interest58" required>
+                        <option value="5">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría trabajar como perito mecánico en un taller?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest59" name="interest59" required>
+                        <option value="5">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría trabajar como técnico cuyas actividades se desempeñan fuera de la ciudad?</p>
+                </div>
+                <div class="user-message">
+                    <select id="interest60" name="interest60" required>
+                        <option value="5">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <!-- Fin Preguntas Intereses -->
+
+                <!-- Botón para avanzar a la sección de aptitudes -->
+                <div class="submit-button">
+                    <button type="button" id="nextAptitudes">Siguiente: Aptitudes</button>
+                </div>
+            </div>
+
+            <!-- Sección de aptitudes-->
+            <div class="section" id="section-aptitudes" style="display: none;">
+                <h2>Sección 2: Aptitudes</h2>
+
+                <!-- Preguntas -->
+                <div class="bot-message">
+                    <p>¿Qué tanto te gustaría resolver problemas de matemáticas?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude1" name="aptitude1" required>
+                        <option value="4">4 - Me gusta mucho</option>
+                        <option value="3">3 - Me gusta algo o en parte</option>
+                        <option value="2">2 - Me es indiferente</option>
+                        <option value="1">1 - Me desagrada algo o en parte</option>
+                        <option value="0">0 - Me desagrada mucho</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para ser jefe competente de un grupo, equipo o sociedad?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude2" name="aptitude2" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para expresarte con facilidad en clase o al platicar con tus amigos?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude3" name="aptitude3" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para dibujar casas, objetos, figuras humanas, etcétera?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude4" name="aptitude4" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para cantar en un grupo?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude5" name="aptitude5" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para llevar en forma correcta y ordenada los apuntes de clase?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude6" name="aptitude6" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para entender principios y experimentos de biología?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude7" name="aptitude7" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para ejecutar con rapidez y exactitud operaciones aritméticas?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude8" name="aptitude8" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para armar y componer objetos mecánicos como chapas, timbres, etcétera?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude9" name="aptitude9" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para realizar actividades que requieren destreza manual?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude10" name="aptitude10" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para ser miembro activo y útil en un club o sociedad?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude11" name="aptitude11" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para organizar y dirigir festivales, encuentros deportivos, excursiones o campañas sociales?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude12" name="aptitude12" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para redactar composiciones o artículos periodísticos?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude13" name="aptitude13" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para pintar paisajes?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude14" name="aptitude14" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para tocar un instrumento musical?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude15" name="aptitude15" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para ordenar y clasificar debidamente documentos en una oficina?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude16" name="aptitude16" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para entender principios y experimentos de física?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude17" name="aptitude17" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para resolver problemas de aritmética?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude18" name="aptitude18" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para desarmar, armar y componer objetos complicados?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude19" name="aptitude19" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para manejar con habilidad herramienta de carpintería?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude20" name="aptitude20" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para colaborar con otros para el bien de la comunidad?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude21" name="aptitude21" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para convencer a otros para que hagan lo que crees que deben hacer?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude22" name="aptitude22" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para componer versos serios o jocosos?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude23" name="aptitude23" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para decorar artísticamente un salón, corredor, escenario o patio para un festival?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude24" name="aptitude24" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para distinguir cuando alguien desentona en las canciones o piezas musicales?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude25" name="aptitude25" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para contestar y redactar correctamente oficios y cartas?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude26" name="aptitude26" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para entender principios y experimentos de química?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude27" name="aptitude27" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para resolver rompecabezas numéricos?</p>
+                </div>
+                <div class="user-message">
+                        <select id="aptitude28" name="aptitude28" required>
+                            <option value="4">4 - Muy apto</option>
+                            <option value="3">3 - Algo apto</option>
+                            <option value="2">2 - Indiferente</option>
+                            <option value="1">1 - Poco apto</option>
+                            <option value="0">0 - Nada apto</option>
+                        </select>
+                </div>
+                <div class="bot-message">
+                <p>¿Qué tan apto te consideras para resolver rompecabezas de alambre o de madera?</p>
+                 </div>
+                    <div class="user-message">
+                        <select id="aptitude29" name="aptitude29" required>
+                            <option value="4">4 - Muy apto</option>
+                            <option value="3">3 - Algo apto</option>
+                            <option value="2">2 - Indiferente</option>
+                            <option value="1">1 - Poco apto</option>
+                            <option value="0">0 - Nada apto</option>
+                        </select>
+                    </div>
+              
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para manejar con facilidad herramientas mecánicas como pinzas, llaves de tuercas, desarmador, etcétera?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude30" name="aptitude30" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para saber escuchar a otros con paciencia y comprender su punto de vista?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude31" name="aptitude31" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para dar órdenes a otros con seguridad y naturalidad?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude32" name="aptitude32" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para escribir cuentos, narraciones o historietas?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude33" name="aptitude33" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para modelar con barro, plastilina o grabar madera?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude34" name="aptitude34" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para entonar correctamente las canciones de moda?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude35" name="aptitude35" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para anotar y manejar con exactitud y rapidez nombres, números y otros datos?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude36" name="aptitude36" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para entender principios y hechos económicos y sociales?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude37" name="aptitude37" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para resolver problemas de álgebra?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude38" name="aptitude38" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para armar y componer muebles?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude39" name="aptitude39" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para manejar con habilidad pequeñas piezas y herramientas como agujas, manecillas, joyas, piezas de relojería, etcétera?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude40" name="aptitude40" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para conversar en las reuniones y fiestas con acierto y naturalidad?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude41" name="aptitude41" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para dirigir un grupo o equipo en situaciones difíciles o peligrosas?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude42" name="aptitude42" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para distinguir y apreciar la buena literatura?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude43" name="aptitude43" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para distinguir y apreciar la buena pintura?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude44" name="aptitude44" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para distinguir y apreciar la buena música?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude45" name="aptitude45" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para encargarse de recibir, anotar y dar recados sin olvidar detalles importantes?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude46" name="aptitude46" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para encargarse de entender las causas que determinan los acontecimientos históricos?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude47" name="aptitude47" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para resolver problemas de geometría?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude48" name="aptitude48" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para aprender el funcionamiento de ciertos mecanismos complicados como motores, relojes, bombas, etcétera?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude49" name="aptitude49" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para hacer con facilidad trazos geométricos con la ayudad de las escuadras, la regla "T" y compás?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude50" name="aptitude50" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para actuar con desinterés?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude51" name="aptitude51" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para corregir a los demás sin ofenderlos?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude52" name="aptitude52" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para exponer juicios públicamente sin preocupación por la crítica?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude53" name="aptitude53" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para colaborar en la elaboración de un libro sobre el arte en la Arquitectura?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude54" name="aptitude54" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para dirigir un grupo musical?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude55" name="aptitude55" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para colaborar en el desarrollo de métodos más eficientes de trabajo?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude56" name="aptitude56" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para realizar investigaciones científicas teniendo como finalidad la búsqueda de la verdad?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude57" name="aptitude57" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para enseñar a resolver problemas de matemáticas?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude58" name="aptitude58" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para inducir a las personas a obtener resultados prácticos?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude59" name="aptitude59" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <div class="bot-message">
+                    <p>¿Qué tan apto te consideras para participar en un concurso de modelismo de coches, aviones, barcos, etcétera?</p>
+                </div>
+                <div class="user-message">
+                    <select id="aptitude60" name="aptitude60" required>
+                        <option value="4">4 - Muy apto</option>
+                        <option value="3">3 - Algo apto</option>
+                        <option value="2">2 - Indiferente</option>
+                        <option value="1">1 - Poco apto</option>
+                        <option value="0">0 - Nada apto</option>
+                    </select>
+                </div>
+                <!-- Fin de Preguntas Aptitudes. -->
+                 <!-- Sección para capturar el correo -->
+                <div>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                <!-- Botón para enviar el formulario -->
+                <button id="enviar-btn">Enviar Respuestas</button>
+
+            </div>
+        </form>
+    </div>
+    <script>
+     // Enviar los datos al backend
+document.getElementById('enviar-btn').addEventListener('click', async function(event) {
+    event.preventDefault(); // Prevenir comportamiento predeterminado del formulario
+
+    const correo = document.getElementById('correo').value;
+    const respuestas = {
+        intereses: [],
+        aptitudes: [],
+        correo: correo,
+    };
+
+    // Recolectar las respuestas de intereses
+    for (let i = 1; i <= 60; i++) {
+        const selectInteres = document.getElementById(`interest${i}`);
+        if (selectInteres) {
+            respuestas.intereses.push(parseInt(selectInteres.value));
+        }
+    }
+
+    // Recolectar las respuestas de aptitudes
+    for (let i = 1; i <= 60; i++) {
+        const selectAptitud = document.getElementById(`aptitude${i}`);
+        if (selectAptitud) {
+            respuestas.aptitudes.push(parseInt(selectAptitud.value));
+        }
+    }
+
+    // Enviar al backend
+    try {
+        const response = await fetch('/api/enviar_respuestas', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(respuestas),
+        });
+
+        const result = await response.json();
+        if (response.ok) {
+            alert('Respuestas enviadas con éxito. Revisa tu correo para el resultado.');
+        } else {
+            alert('Error: ' + result.error);
+        }
+    } catch (error) {
+        console.error('Error al enviar las respuestas:', error);
+    }
+});
+    </script>
+    <script src="test.js"></script>
+</body>
+</html>

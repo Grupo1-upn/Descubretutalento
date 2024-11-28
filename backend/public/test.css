@@ -1,0 +1,89 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #bf2b2a;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Chat container */
+.chat {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Bot message (question from the system) */
+.bot-message {
+    background-color: #bf2b2a;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    max-width: 80%;
+    margin-bottom: 10px;
+}
+
+.bot-message p {
+    margin: 0;
+}
+
+/* User message (response) */
+.user-message {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    max-width: 80%;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.user-message select, .user-message input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit button */
+.submit-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-button button {
+    background-color: #bf2b2a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button button:hover {
+    background-color: #a52120;
+}
